@@ -33,25 +33,7 @@
 # interested_in_categories_12 : List of categories in which the customer has shopped in the last 12 months / Müşterinin son 12 ayda alışveriş yaptığı kategorilerin listesi
 
 
-###############################################################
-# GÖREVLER
-###############################################################
 
-# GÖREV 1: Veriyi Hazırlama
-           # 1. flo_data_20K.csv.csv verisini okuyunuz.
-           # 2. Müşterileri segmentlerken kullanacağınız değişkenleri seçiniz.
-#          Tenure(Müşterinin yaşı), Recency (en son kaç gün önce alışveriş yaptığı) gibi yeni değişkenler oluşturabilirsiniz.
-
-# GÖREV 2: K-Means ile Müşteri Segmentasyonu
-           # 1. Değişkenleri standartlaştırınız.
-           # 2. Optimum küme sayısını belirleyiniz.
-           # 3. Modelinizi oluşturunuz ve müşterilerinizi segmentleyiniz.
-           # 4. Herbir segmenti istatistiksel olarak inceleyeniz.
-
-# GÖREV 3: Hierarchical Clustering ile Müşteri Segmentasyonu
-           # 1. Görev 2'de standırlaştırdığınız dataframe'i kullanarak optimum küme sayısını belirleyiniz.
-           # 2. Modelinizi oluşturunuz ve müşterileriniz segmentleyiniz.
-           # 3. Herbir segmenti istatistiksel olarak inceleyeniz.
 
 
 ###############################################################
