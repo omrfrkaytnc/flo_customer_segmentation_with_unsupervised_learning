@@ -13,6 +13,7 @@
 # Data Set Story / Veri Seti Hikayesi
 ###############################################################
 
+# The data set consists of information obtained from the past shopping behaviour of customers who made their last purchases as OmniChannel (both online and offline) in 2020 - 2021.
 # Veri seti son alışverişlerini 2020 - 2021 yıllarında OmniChannel(hem online hem offline) olarak yapan müşterilerin geçmiş alışveriş davranışlarından elde edilen bilgilerden oluşmaktadır.
 
 # 20.000 gözlem,
@@ -170,7 +171,7 @@ elbow.fit(model_df)
 elbow.show(block=True)
 
 
-# Model building and segmenting customers / Modelinizi oluşturunuz ve müşterilerinizi segmentleyiniz.
+# Model building and segmenting customers / Model oluşturma ve müşterileri segmentleme
 k_means = KMeans(n_clusters = 7, random_state= 42).fit(model_df)
 segments = k_means.labels_
 segments
@@ -191,7 +192,7 @@ final_df.describe().T
 
 final_df["segment"] = final_df["segment"] + 1
 
-# Statistical analysis of each segment / Herbir segmenti istatistiksel olarak inceleyiniz.
+# Statistical analysis of each segment / Herbir segmenti istatistiksel olarak inceleme
 
 final_df.groupby("segment").agg(["mean","min","max", "count"])
 
